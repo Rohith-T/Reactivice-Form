@@ -1,0 +1,32 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+ input.ng-invalid.ng-touched{
+    border: red 2px solid;
+ }   
+
+ small{
+    color: red;
+    font-weight: bold;
+ }
+ .container.INVALID {
+    border: red 2px solid;
+ }
+ .container.VALID {
+    border: green 2px solid;
+ }
+
+ @keyframes bgcolor {
+   from { background-color: lightblue}
+   to {background-color: lightgreen;}
+ }
+ .header{
+   animation-name: bgcolor;
+   animation-duration: 4s;
+ }
